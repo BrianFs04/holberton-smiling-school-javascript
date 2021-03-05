@@ -1,0 +1,588 @@
+:root {
+    --primary-color: #c271ff;
+    --bg-color: #071629;
+
+    --font-family-one: "Source Sans Pro", sans-serif;
+    --font-family-two: "Spin Cycle OT", sans-serif;
+    --font-family-three: "Coiny", cursive;
+}
+
+body {
+    font-family: var(--font-family-one);
+}
+
+.header {
+    position: relative;
+    background: url(./images/pic_1.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-color: var(--bg-color);
+}
+
+.first-last-line {
+    width: 20px;
+    height: 2px;
+}
+
+.middle-line {
+    width: 13px;
+    height: 2px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav > .active > a {
+    color: var(--primary-color) !important;
+}
+
+.nav-word {
+    font-size: 12px;
+}
+
+.hero {
+    margin-top: 160px;
+}
+
+.hero h1 {
+    font-size: 120px;
+}
+
+.hero div p.mot {
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    width: 162px;
+    height: 44px;
+    background-color: var(--primary-color);
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.hero h2 {
+    margin-top: 170px;
+    font-size: 32px;
+}
+
+.hero h2 span {
+    color: var(--primary-color);
+}
+
+.pro {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.pro-award {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .hero {
+        margin-top: 75px;
+    }
+    .hero h1 {
+        font-size: 56px;
+        line-height: 76px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+    .header {
+        background-size: 1060px;
+    }
+    .hero {
+        margin-top: 75px;
+    }
+    .hero h1 {
+        font-size: 61px;
+        line-height: 76px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header {
+        background-size: auto;
+    }
+}
+
+/* Carousel of quotes section */
+.quotes-carousel {
+    background-color: var(--primary-color);
+}
+
+.profile-5 {
+    width: 160px;
+}
+
+.quote {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    section.quotes-carousel .carousel-control-prev,
+    section.quotes-carousel .carousel-control-next {
+        margin-bottom: 195px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-5 {
+        width: 148px !important;
+    }
+}
+
+/* Most popular videos */
+.tutorials {
+    background-color: white;
+}
+
+.tutorials h2 span {
+    color: var(--primary-color);
+}
+
+.card {
+    width: 255px;
+}
+
+.card .img-tutorial {
+    position: relative;
+}
+
+.card .img-tutorial .play {
+    position: absolute;
+    width: 64px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tuto-title {
+    font-size: 16px;
+}
+
+.tuto-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.5016);
+}
+
+.reviewer {
+    font-size: 14px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Free videos */
+
+.free {
+    background-color: var(--bg-color);
+}
+
+.free-title {
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+.free-descrip {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--bg-color);
+    height: 249px;
+}
+
+.social-icons {
+    width: 125px;
+}
+
+.footer-copyright {
+    position: relative;
+    top: 79px;
+    opacity: 0.3517;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-copyright {
+        top: 0px;
+    }
+}
+
+/* Pricing section */
+/* Header */
+
+.pricing-header {
+    position: relative;
+    background: url(./images/pic_2.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-color: var(--bg-color);
+}
+
+.line {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+/* Hero pricing section */
+
+.hero-pricing {
+    margin-top: 200px;
+}
+
+.hero-pricing-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hero-pricing-title span {
+    font-family: var(--font-family-three);
+}
+
+.hero-pricing:nth-child(2) h1 {
+    font-size: 60px;
+}
+
+.table thead tr th:nth-child(2) {
+    width: 88px;
+}
+
+@media screen and (max-width: 320px) {
+    .hero-pricing-title {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 332px) and (max-width: 576px) {
+    .hero-pricing-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .btn-center {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.price {
+    font-size: 44px;
+}
+
+.price-month {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.53;
+}
+
+.check-icon {
+    color: #82d24f;
+    font-size: 28px;
+}
+
+.small-info {
+    font-size: 12px;
+}
+
+.covering {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    .item-1 {
+        padding-right: 90px !important;
+    }
+    .item-2 {
+        padding-right: 227px !important;
+    }
+    .item-3 {
+        padding-right: 65px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .item-2 {
+        padding-right: 324px !important;
+    }
+    .item-3 {
+        padding-right: 39px !important;
+    }
+}
+
+/* FAQ section */
+
+.faq-heading {
+    font-size: 60px;
+    color: #071629;
+}
+
+.faq-title {
+    font-size: 16px;
+}
+
+.faq-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+    width: 350px;
+}
+
+@media screen and (max-width: 320px) {
+    .faq-paragraph {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 424px) {
+    .faq-paragraph {
+        width: 341px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 576px) {
+    .faq-paragraph {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .faq-paragraph {
+        width: 270px;
+    }
+}
+
+/* Courses section */
+/* Header */
+
+.courses-header {
+    position: relative;
+    background: url(./images/pic_3.jpg) no-repeat;
+    background-position: center -94px;
+    background-color: var(--bg-color);
+}
+
+/* Hero section */
+
+.courses-heading {
+    font-size: 32px;
+    font-family: var(--font-family-three);
+}
+
+.courses-heading > span {
+    color: var(--primary-color);
+}
+
+/* Search filters section */
+
+.search {
+    background-color: var(--primary-color);
+}
+
+input[type="text"],
+.dropdown button {
+    background-color: rgb(255, 255, 255, 0.2519);
+}
+
+input[type="text"]:focus,
+.dropdown .btn:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(255, 255, 255, 0.2519);
+}
+
+input[type="text"]::placeholder {
+    font-size: 23px;
+    color: white;
+    opacity: 0.5038;
+}
+
+.labels {
+    font-size: 12px;
+}
+
+.search-icon {
+    height: 36px;
+}
+
+.form-control {
+    border: none;
+    border-radius: unset;
+}
+
+.dropdown button {
+    border-radius: unset;
+    height: calc(1.5rem + 0.75rem + 2px);
+}
+
+.drop-text {
+    font-size: 23px;
+}
+
+.dropdown-item:hover {
+    color: var(--primary-color);
+    background-color: unset;
+}
+
+/* List of results */
+
+.results-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(7, 22, 41, 0.2962);
+}
+
+/* Spinner */
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #c271ff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Slide one by one */
+@media screen and (max-width: 768px) {
+    .tutorials .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .tutorials .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.tutorials .carousel-inner .carousel-item.active,
+.tutorials .carousel-inner .carousel-item-next,
+.tutorials .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 4 */
+@media screen and (min-width: 1025px) {
+    .tutorials .carousel-inner .carousel-item-right.active,
+    .tutorials .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .tutorials .carousel-inner .carousel-item-left.active,
+    .tutorials .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .tutorials .carousel-inner .carousel-item-right.active,
+    .tutorials .carousel-inner .carousel-item-next {
+        transform: translateX(33.33333333333333%);
+    }
+
+    .tutorials .carousel-inner .carousel-item-left.active,
+    .tutorials .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.33333333333333%);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .tutorials .carousel-inner .carousel-item-right.active,
+    .tutorials .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .tutorials .carousel-inner .carousel-item-left.active,
+    .tutorials .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .tutorials .carousel-inner .carousel-item-right.active,
+    .tutorials .carousel-inner .carousel-item-next {
+        transform: translateX(100%);
+    }
+
+    .tutorials .carousel-inner .carousel-item-left.active,
+    .tutorials .carousel-inner .carousel-item-prev {
+        transform: translateX(-100%);
+    }
+}
+
+.tutorials .carousel-inner .carousel-item-right,
+.tutorials .carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+/* arrows */
+.arrow-back {
+    margin-top: -29px;
+    margin-left: -60px;
+}
+
+.arrow-next {
+    margin-top: -29px;
+    margin-right: -60px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .arrow-back {
+        margin-left: -36px;
+    }
+
+    .arrow-next {
+        margin-right: -36px;
+    }
+}
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+    .arrow-back {
+        margin-left: -23px;
+    }
+
+    .arrow-next {
+        margin-right: -23px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 576px) {
+    .arrow-back {
+        margin-left: -6px;
+    }
+
+    .arrow-next {
+        margin-right: -6px;
+    }
+}
+
+.no-results {
+    font-size: 40px;
+    font-family: var(--font-family-three);
+    color: var(--primary-color);
+}
