@@ -31,7 +31,7 @@ If you want to see more, I'll leave the link of the website
 
 Click on it to have a preview
 
--   [**SmileSchool**](https://smilingschooljs.netlify.app/)
+-   [**SmileSchool**](https://i.ibb.co/v4mQ8hs/smileschool.png)
 
 # Story behind it
 
